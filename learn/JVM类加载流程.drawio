@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T07:59:10.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="vR-V5KaRTM78d_8Fa1FM" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T08:00:23.613Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="SuoMmfXT-rN2yf-Fxxw-" version="16.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,10 +144,28 @@
           <mxGeometry x="230" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0oYpzeVEECs09RrJKvZ9-57" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#5C5C5C;strokeColor=#006658;fillColor=#21C0A5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="840" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="840" y="380" width="560" height="300" as="geometry" />
         </mxCell>
         <mxCell id="0oYpzeVEECs09RrJKvZ9-58" value="已用内存" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0oYpzeVEECs09RrJKvZ9-59" value="堆内存空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#5C5C5C;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="390" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0oYpzeVEECs09RrJKvZ9-61" value="线程1 内存块" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="850" y="420" width="170" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0oYpzeVEECs09RrJKvZ9-62" value="线程2 内存块" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1035" y="420" width="170" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0oYpzeVEECs09RrJKvZ9-64" value="空闲内存" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1230" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0oYpzeVEECs09RrJKvZ9-65" value="空闲内存" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1230" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0oYpzeVEECs09RrJKvZ9-68" value="空闲内存" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1230" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
