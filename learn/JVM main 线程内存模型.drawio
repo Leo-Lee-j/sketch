@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T09:47:04.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="L0qW-yEEXiamksTDdnh4" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T09:47:49.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="OOphn7MZ03DPnnyxu9bI" version="16.2.7" type="github">
   <diagram id="ayXwuYhm25OcpR_I-w7o" name="第 1 页">
     <mxGraphModel dx="2286" dy="1343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,11 +7,17 @@
         <mxCell id="jA081PHKY-Br7xbYG0jW-2" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-327" y="-357" width="279" height="610" as="geometry" />
         </mxCell>
-        <mxCell id="jA081PHKY-Br7xbYG0jW-3" value="Main 线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;fontColor=#5C5C5C;" vertex="1" parent="1">
+        <mxCell id="jA081PHKY-Br7xbYG0jW-3" value="Main 线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;fontColor=#5C5C5C;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-230" y="-352" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jA081PHKY-Br7xbYG0jW-4" value="程序计数器 = 10" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
           <mxGeometry x="-277.5" y="-320" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jA081PHKY-Br7xbYG0jW-5" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="-270" width="250" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="jA081PHKY-Br7xbYG0jW-6" value="本地方法栈" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="180" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
