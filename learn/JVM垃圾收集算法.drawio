@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T05:55:38.506Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="X8uYIbqtfEjguIn9mq69" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-20T06:13:44.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="WS3ViTb0PeFEJ1rXDwQv" version="16.2.7" type="github">
   <diagram id="A7EeGcwWFw8KgxiksP2b" name="第 1 页">
     <mxGraphModel dx="2286" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3yinAycjIMm108C5zKmO-305" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="780" y="510" width="490" height="240" as="geometry" />
+        </mxCell>
         <mxCell id="3yinAycjIMm108C5zKmO-269" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="780" y="40" width="830" height="330" as="geometry" />
         </mxCell>
@@ -810,6 +813,60 @@
             <mxPoint x="1070" y="540" as="sourcePoint" />
             <mxPoint x="950" y="270" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-306" value="Serial收集器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;dashed=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="780" y="520" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-308" value="" style="endArrow=none;html=1;rounded=0;sketch=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#000000;curved=1;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="710" as="sourcePoint" />
+            <mxPoint x="940" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-309" value="" style="endArrow=none;html=1;rounded=0;sketch=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#000000;curved=1;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="710" as="sourcePoint" />
+            <mxPoint x="1100" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-310" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;sketch=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#000000;strokeWidth=1;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="607" as="sourcePoint" />
+            <mxPoint x="935" y="607" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-311" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;sketch=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#000000;strokeWidth=1;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="650" as="sourcePoint" />
+            <mxPoint x="935" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-312" value="应用程序线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;dashed=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="815" y="560" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-313" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;sketch=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#d79b00;strokeWidth=1;curved=1;fillColor=#ffe6cc;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="952.5" y="630" as="sourcePoint" />
+            <mxPoint x="1087.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-314" value="GC线程 STW(应用程序暂停)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;dashed=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="935" y="560" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-315" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;sketch=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#000000;strokeWidth=1;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="607" as="sourcePoint" />
+            <mxPoint x="1245" y="607" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-316" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;sketch=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#000000;strokeWidth=1;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="649" as="sourcePoint" />
+            <mxPoint x="1245" y="649" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-317" value="应用程序线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;dashed=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="560" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
