@@ -1,11 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T03:11:16.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="5RhIfzGTRw2jVzN96B0x" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-20T03:13:32.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="-qjUnKHVMOzkCGhVQjS5" version="16.2.7" type="github">
   <diagram id="A7EeGcwWFw8KgxiksP2b" name="第 1 页">
-    <mxGraphModel dx="2286" dy="943" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2286" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3yinAycjIMm108C5zKmO-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="3yinAycjIMm108C5zKmO-1" target="3yinAycjIMm108C5zKmO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="3yinAycjIMm108C5zKmO-1" target="3yinAycjIMm108C5zKmO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="3yinAycjIMm108C5zKmO-1" target="3yinAycjIMm108C5zKmO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="3yinAycjIMm108C5zKmO-1" target="3yinAycjIMm108C5zKmO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3yinAycjIMm108C5zKmO-1" value="垃圾收集算法" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
-          <mxGeometry x="-211" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="-203" y="219" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-2" value="分代收集算法" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="29" y="63" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-3" value="标记-复制算法" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="29" y="168" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-4" value="标记-整理算法" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="29" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3yinAycjIMm108C5zKmO-5" value="标记-清除算法" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="29" y="369" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
