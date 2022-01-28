@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T06:26:51.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="UYgD_lBcJWq71tjJ9PfV" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-28T06:29:13.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="1Q1nZqG20aWb9kREd1dB" version="16.4.5" type="github">
   <diagram id="naXi8rLILcskXY8gthHy" name="第 1 页">
     <mxGraphModel dx="2286" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XW8aF6pZ14LalYb6YpI1-256" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;hachureGap=4;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="1080" width="1015" height="370" as="geometry" />
+        </mxCell>
         <mxCell id="XW8aF6pZ14LalYb6YpI1-129" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontSize=14;swimlaneFillColor=none;sketch=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-150" y="510" width="540" height="500" as="geometry" />
         </mxCell>
@@ -784,26 +787,29 @@
         <mxCell id="XW8aF6pZ14LalYb6YpI1-250" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=14;startSize=14;endSize=8.67;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;sketch=1;width=6;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="749" y="1220" as="sourcePoint" />
-            <mxPoint x="869" y="1220" as="targetPoint" />
+            <mxPoint x="840" y="1220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XW8aF6pZ14LalYb6YpI1-251" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=14;startSize=14;endSize=8.67;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;sketch=1;width=6;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="749" y="1250" as="sourcePoint" />
-            <mxPoint x="869" y="1250" as="targetPoint" />
+            <mxPoint x="840" y="1250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XW8aF6pZ14LalYb6YpI1-252" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=1;hachureGap=4;fontSize=14;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="122.49999999999999" y="967.91" width="20" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="XW8aF6pZ14LalYb6YpI1-253" value="标记阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;sketch=1;hachureGap=4;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="95" y="1120" width="70" height="20" as="geometry" />
+        <mxCell id="XW8aF6pZ14LalYb6YpI1-253" value="标记阶段（标记存活对象）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;sketch=1;hachureGap=4;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1120" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XW8aF6pZ14LalYb6YpI1-254" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=1;hachureGap=4;fontSize=14;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="566" y="967.91" width="20" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="XW8aF6pZ14LalYb6YpI1-255" value="转移阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;sketch=1;hachureGap=4;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="538.5" y="1120" width="70" height="20" as="geometry" />
+        <mxCell id="XW8aF6pZ14LalYb6YpI1-255" value="转移阶段（存活对象复制和转移）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;sketch=1;hachureGap=4;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="458.5" y="1120" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XW8aF6pZ14LalYb6YpI1-257" value="ZGC流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;sketch=1;hachureGap=4;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1420" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
