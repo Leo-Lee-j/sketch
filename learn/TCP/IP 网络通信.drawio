@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T13:20:45.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="RFqu4iAdSUKnwFlazr4Z" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T13:29:33.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="gmwQ-NupTP1BmFuLFWJ0" version="18.0.2" type="github">
   <diagram id="H0PgmONnu2SjmG0b2NmS" name="第 1 页">
     <mxGraphModel dx="2073" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -226,10 +226,10 @@
         <mxCell id="r8liKjA9m85PFlhKGAdW-20" value="通过 Socket 进行输入和输出数据" style="shape=note;whiteSpace=wrap;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;html=1;horizontal=1;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="1710" y="730" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="y94XsiPUnUywq4zDPp5k-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="y94XsiPUnUywq4zDPp5k-1" target="y94XsiPUnUywq4zDPp5k-2">
+        <mxCell id="y94XsiPUnUywq4zDPp5k-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="1" source="y94XsiPUnUywq4zDPp5k-1" target="y94XsiPUnUywq4zDPp5k-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y94XsiPUnUywq4zDPp5k-6" value="Socket - connect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="y94XsiPUnUywq4zDPp5k-5">
+        <mxCell id="y94XsiPUnUywq4zDPp5k-6" value="Socket - connect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Comic Sans MS;sketch=1;fontColor=#FF0000;" vertex="1" connectable="0" parent="y94XsiPUnUywq4zDPp5k-5">
           <mxGeometry x="-0.1993" y="-2" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -238,13 +238,68 @@
           <mxGeometry x="990" y="1180" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y94XsiPUnUywq4zDPp5k-2" value="" style="rounded=1;whiteSpace=wrap;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;html=1;horizontal=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="1330" y="1000" width="600" height="420" as="geometry" />
+          <mxGeometry x="1320" y="1090" width="600" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=16;startArrow=open;startFill=0;endArrow=none;endFill=0;sketch=1;" edge="1" parent="1" source="y94XsiPUnUywq4zDPp5k-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1309.9999999999995" y="1215.1764705882351" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-15" value="accept()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Comic Sans MS;sketch=1;fontColor=#00CC00;" vertex="1" connectable="0" parent="y94XsiPUnUywq4zDPp5k-14">
+          <mxGeometry x="-0.1882" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="y94XsiPUnUywq4zDPp5k-3" value="Acceptor" style="whiteSpace=wrap;aspect=fixed;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;html=1;horizontal=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="1605" y="1155" width="80" height="80" as="geometry" />
+          <mxGeometry x="1610" y="1175" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="y94XsiPUnUywq4zDPp5k-4" value="Thread" style="rounded=1;whiteSpace=wrap;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;fillColor=#ffcccc;strokeColor=#36393d;html=1;horizontal=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="1780" y="1165" width="120" height="60" as="geometry" />
+        <mxCell id="y94XsiPUnUywq4zDPp5k-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=16;startArrow=open;startFill=0;endArrow=none;endFill=0;sketch=1;" edge="1" parent="1" source="y94XsiPUnUywq4zDPp5k-4" target="y94XsiPUnUywq4zDPp5k-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-10" value="OutStream&amp;nbsp; Write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Comic Sans MS;sketch=1;" vertex="1" connectable="0" parent="y94XsiPUnUywq4zDPp5k-9">
+          <mxGeometry x="0.6082" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=16;startArrow=none;startFill=0;endArrow=openThin;endFill=0;sketch=1;" edge="1" parent="1" source="y94XsiPUnUywq4zDPp5k-4" target="y94XsiPUnUywq4zDPp5k-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-16" value="OutPutSteam Write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Comic Sans MS;sketch=1;" vertex="1" connectable="0" parent="y94XsiPUnUywq4zDPp5k-11">
+          <mxGeometry x="-0.2088" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-17" value="InputStream Read" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Comic Sans MS;sketch=1;" vertex="1" connectable="0" parent="y94XsiPUnUywq4zDPp5k-11">
+          <mxGeometry x="0.7407" y="-2" relative="1" as="geometry">
+            <mxPoint x="52" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-4" value="业务逻辑" style="rounded=1;whiteSpace=wrap;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;fillColor=#ffcccc;strokeColor=#36393d;html=1;horizontal=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-7" value="Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Comic Sans MS;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1100" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-18" value="InputStream Read" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Comic Sans MS;sketch=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1520.004792133677" y="1159.9988235294118" as="geometry" />
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-22" value="Server read message from Client" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Comic Sans MS;fontSize=16;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1060" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-23" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Comic Sans MS;fontSize=16;sketch=1;position2=0.5;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1280" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-24" value="Server Response message&amp;nbsp;&lt;br&gt;to Client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1465" y="1310" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-25" value="Client&amp;nbsp; Send message to server" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Comic Sans MS;fontSize=16;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1060" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-27" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Comic Sans MS;fontSize=16;sketch=1;position2=0.5;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1280" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y94XsiPUnUywq4zDPp5k-28" value="Client Read message from&lt;br&gt;&amp;nbsp;Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1310" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
