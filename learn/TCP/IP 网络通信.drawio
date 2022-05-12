@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T06:40:11.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="kEIZd-SghhYR1yGcBBX4" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-12T06:42:07.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="oV7_6OODjQs_3dwgj7tE" version="18.0.2" type="github">
   <diagram id="H0PgmONnu2SjmG0b2NmS" name="第 1 页">
     <mxGraphModel dx="2619" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -350,7 +350,7 @@
         <mxCell id="zZJI-bMEiVUfMfBPwizJ-16" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
           <mxGeometry x="-230" y="1660" width="1240" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="zZJI-bMEiVUfMfBPwizJ-18" value="OR_CONNECT (SSC)&lt;br&gt;OR_READ (S1)&lt;br&gt;OR_WRITE (S2)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="zZJI-bMEiVUfMfBPwizJ-18" value="OR_ACCEPT (SSC)&lt;br&gt;OR_READ (S1)&lt;br&gt;OR_WRITE (S2)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="179" y="1825" width="191" height="200" as="geometry" />
         </mxCell>
         <mxCell id="zZJI-bMEiVUfMfBPwizJ-77" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#000000;" edge="1" parent="1" source="zZJI-bMEiVUfMfBPwizJ-22" target="zZJI-bMEiVUfMfBPwizJ-18">
