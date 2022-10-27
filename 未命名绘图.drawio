@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T09:06:47.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="JN4Ao3XXw7bkfpDSvu0A" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T01:43:51.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="PfHTG0p-OoW_loiO_6f3" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1865" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -38,7 +38,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="发送失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="370" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="370" y="580" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GwOpK5GsoIJdOW2LsYdW-0" value="获取模板 （Enum）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="180" width="120" height="40" as="geometry" />
@@ -57,25 +57,30 @@
             <mxPoint x="354" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GwOpK5GsoIJdOW2LsYdW-17" value="记录发送历史" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GwOpK5GsoIJdOW2LsYdW-14">
-          <mxGeometry x="-0.2838" y="-1" relative="1" as="geometry">
+        <mxCell id="GwOpK5GsoIJdOW2LsYdW-28" value="成功，记录发送历史" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GwOpK5GsoIJdOW2LsYdW-14">
+          <mxGeometry x="0.7072" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GwOpK5GsoIJdOW2LsYdW-13" value="发送短信成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="GwOpK5GsoIJdOW2LsYdW-13" value="获取手机号码等信息,生成短信请求并发送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GwOpK5GsoIJdOW2LsYdW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GwOpK5GsoIJdOW2LsYdW-13" target="GwOpK5GsoIJdOW2LsYdW-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GwOpK5GsoIJdOW2LsYdW-16" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="190" y="570" width="60" height="80" as="geometry" />
+          <mxGeometry x="190" y="730" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GwOpK5GsoIJdOW2LsYdW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GwOpK5GsoIJdOW2LsYdW-24" target="GwOpK5GsoIJdOW2LsYdW-13">
+        <mxCell id="GwOpK5GsoIJdOW2LsYdW-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GwOpK5GsoIJdOW2LsYdW-27" target="WIyWlLk6GJQsqaUBKTNV-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GwOpK5GsoIJdOW2LsYdW-24" value="获取手机号码等信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-40" y="440" width="120" height="40" as="geometry" />
+        <mxCell id="GwOpK5GsoIJdOW2LsYdW-30" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GwOpK5GsoIJdOW2LsYdW-29">
+          <mxGeometry x="-0.24" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GwOpK5GsoIJdOW2LsYdW-27" value="是否发送成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="560" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
