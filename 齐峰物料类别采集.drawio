@@ -1,1 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T02:04:51.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" version="20.5.1" etag="XqhdzxcpVGJtxBkQvWxB" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-08T03:42:21.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="dLcn8gcdUdak9tIPUeOL" version="20.5.1" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1221" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="KeUmML4IdpqU2twopa0j-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KeUmML4IdpqU2twopa0j-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-11" value="定时任务" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KeUmML4IdpqU2twopa0j-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-16" value="从ERP系统采集物料类别数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KeUmML4IdpqU2twopa0j-25" target="KeUmML4IdpqU2twopa0j-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-25" value="过滤 2 开头非配置映射的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-26" value="本地采集" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="40" width="310" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-28" value="推送到第三方数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="KeUmML4IdpqU2twopa0j-26">
+          <mxGeometry x="100" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-27" value="云端同步" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="40" width="640" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KeUmML4IdpqU2twopa0j-27" source="KeUmML4IdpqU2twopa0j-30" target="KeUmML4IdpqU2twopa0j-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-30" value="定时任务" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="KeUmML4IdpqU2twopa0j-27">
+          <mxGeometry x="210" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KeUmML4IdpqU2twopa0j-27" source="KeUmML4IdpqU2twopa0j-32" target="KeUmML4IdpqU2twopa0j-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-32" value="同步第三方数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="KeUmML4IdpqU2twopa0j-27">
+          <mxGeometry x="190" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KeUmML4IdpqU2twopa0j-27" source="KeUmML4IdpqU2twopa0j-35" target="KeUmML4IdpqU2twopa0j-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-44" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KeUmML4IdpqU2twopa0j-42">
+          <mxGeometry x="-0.1345" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KeUmML4IdpqU2twopa0j-27" source="KeUmML4IdpqU2twopa0j-35" target="KeUmML4IdpqU2twopa0j-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-45" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KeUmML4IdpqU2twopa0j-43">
+          <mxGeometry x="-0.0961" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-35" value="是否已存在物料类别编号数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="KeUmML4IdpqU2twopa0j-27">
+          <mxGeometry x="190" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-40" value="更新物料类别数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KeUmML4IdpqU2twopa0j-27">
+          <mxGeometry x="60" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KeUmML4IdpqU2twopa0j-27" source="KeUmML4IdpqU2twopa0j-41" target="KeUmML4IdpqU2twopa0j-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-41" value="新增物料类别(半成品)数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KeUmML4IdpqU2twopa0j-27">
+          <mxGeometry x="330" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KeUmML4IdpqU2twopa0j-27" source="KeUmML4IdpqU2twopa0j-51" target="KeUmML4IdpqU2twopa0j-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-56" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KeUmML4IdpqU2twopa0j-55">
+          <mxGeometry x="-0.3049" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KeUmML4IdpqU2twopa0j-27" source="KeUmML4IdpqU2twopa0j-51" target="KeUmML4IdpqU2twopa0j-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="530" />
+              <mxPoint x="590" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-76" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KeUmML4IdpqU2twopa0j-74">
+          <mxGeometry x="-0.5619" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-51" value="物料类别编号是否 3 开头" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="KeUmML4IdpqU2twopa0j-27">
+          <mxGeometry x="320" y="490" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KeUmML4IdpqU2twopa0j-27" source="KeUmML4IdpqU2twopa0j-52" target="KeUmML4IdpqU2twopa0j-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KeUmML4IdpqU2twopa0j-27" source="KeUmML4IdpqU2twopa0j-52" target="KeUmML4IdpqU2twopa0j-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-52" value="是否已存在 M + 类别编号的半成品" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="KeUmML4IdpqU2twopa0j-27">
+          <mxGeometry x="320" y="690" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-46" value="云平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="KeUmML4IdpqU2twopa0j-27">
+          <mxGeometry x="60" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KeUmML4IdpqU2twopa0j-27" source="KeUmML4IdpqU2twopa0j-40" target="KeUmML4IdpqU2twopa0j-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-59" value="生成半成品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KeUmML4IdpqU2twopa0j-27">
+          <mxGeometry x="220" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KeUmML4IdpqU2twopa0j-27" source="KeUmML4IdpqU2twopa0j-59" target="KeUmML4IdpqU2twopa0j-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KeUmML4IdpqU2twopa0j-27" source="KeUmML4IdpqU2twopa0j-69" target="KeUmML4IdpqU2twopa0j-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-69" value="更新半成品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KeUmML4IdpqU2twopa0j-27">
+          <mxGeometry x="440" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KeUmML4IdpqU2twopa0j-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KeUmML4IdpqU2twopa0j-32" target="KeUmML4IdpqU2twopa0j-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
