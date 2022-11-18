@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:21:32.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="EFCqy-iDhpXva0PRqRyT" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T09:44:46.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="oCJFvmG7Mx-jfRpz53DD" version="20.5.3" type="github">
   <diagram id="Lrq_B5cbt0-HYkro8u6f" name="第 1 页">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
         <mxCell id="pyB7yYGDKb-wKmbRGgdC-9" value="读取同步热值配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="pyB7yYGDKb-wKmbRGgdC-7" vertex="1">
           <mxGeometry x="120" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pyB7yYGDKb-wKmbRGgdC-26" value="计算每天的平均检验值" style="rounded=1;whiteSpace=wrap;html=1;" parent="pyB7yYGDKb-wKmbRGgdC-7" vertex="1">
+        <mxCell id="pyB7yYGDKb-wKmbRGgdC-26" value="计算对应质检项目七天内的平均检验值" style="rounded=1;whiteSpace=wrap;html=1;" parent="pyB7yYGDKb-wKmbRGgdC-7" vertex="1">
           <mxGeometry x="120" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pyB7yYGDKb-wKmbRGgdC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pyB7yYGDKb-wKmbRGgdC-19" target="pyB7yYGDKb-wKmbRGgdC-9" edge="1">
