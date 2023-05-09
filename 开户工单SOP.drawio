@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T08:38:33.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="P3mHS5zSoSM-H9zwQhf1" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T08:42:18.432Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="pBMd9VXo_RSlfWUngsDp" version="21.2.9" type="github">
   <diagram name="第 1 页" id="x_7hoCfTkEh6aC214l1T">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -241,7 +241,7 @@
           <mxGeometry x="770" y="1540" width="110" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9LNK2VqWd-SNEs2dgi0T-40" value="自平台资金管理系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="1243" width="340" height="180" as="geometry" />
+          <mxGeometry x="1380" y="1269.5" width="230" height="127" as="geometry" />
         </mxCell>
         <mxCell id="9LNK2VqWd-SNEs2dgi0T-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="9LNK2VqWd-SNEs2dgi0T-34" target="9LNK2VqWd-SNEs2dgi0T-40">
           <mxGeometry relative="1" as="geometry" />
@@ -251,6 +251,24 @@
         </mxCell>
         <mxCell id="9LNK2VqWd-SNEs2dgi0T-43" value="例如，充值、清零、转款、减款。以及以上操作被驳回等操作。由资金系统做补偿机制" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="1440" y="1190" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9LNK2VqWd-SNEs2dgi0T-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1314" y="1530" width="340" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9LNK2VqWd-SNEs2dgi0T-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="9LNK2VqWd-SNEs2dgi0T-31" target="9LNK2VqWd-SNEs2dgi0T-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9LNK2VqWd-SNEs2dgi0T-48" value="蓝标上游媒体" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9LNK2VqWd-SNEs2dgi0T-49" value="飞书 Online" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9LNK2VqWd-SNEs2dgi0T-50" value="谷歌官方 (自平台)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9LNK2VqWd-SNEs2dgi0T-51" value="雨果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="1650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
