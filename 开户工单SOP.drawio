@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T08:37:36.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="rVYhgTZKteKr7sS7v3fI" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T08:38:33.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="P3mHS5zSoSM-H9zwQhf1" version="21.2.9" type="github">
   <diagram name="第 1 页" id="x_7hoCfTkEh6aC214l1T">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -233,6 +233,9 @@
         </mxCell>
         <mxCell id="9LNK2VqWd-SNEs2dgi0T-44" value="可选择手动处理工单或者选择API自动处理工单" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="9LNK2VqWd-SNEs2dgi0T-36">
           <mxGeometry x="349" y="127" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9LNK2VqWd-SNEs2dgi0T-45" value="选择自动API处理&lt;br&gt;&lt;br&gt;更新 work_task 工单处理类型，由定时任务处理" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="9LNK2VqWd-SNEs2dgi0T-36">
+          <mxGeometry x="479" y="127" width="110" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9LNK2VqWd-SNEs2dgi0T-37" value="ads_account 添加广告账户,，ApplySn 和开户申请关联" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="770" y="1540" width="110" height="120" as="geometry" />
